@@ -1,0 +1,60 @@
+{
+  "submissions": [
+    {
+      "id": "1776028011395",
+      "status": "pending",
+      "submittedAt": "2026-04-12T21:06:51.395Z",
+      "completedAt": null,
+      "error": null,
+      "formData": {
+        "empresa": "Test Automation Co",
+        "emailPrefix": "testautomation",
+        "dominio": "testautomation.com",
+        "agentes": [
+          "cotizador",
+          "validador"
+        ],
+        "usuarios": [
+          {
+            "nombre": "Juan Prueba",
+            "email": "juan@testautomation.com",
+            "rol": "admin"
+          }
+        ],
+        "aseguradoras": [
+          {
+            "nombre": "GNP",
+            "ramos": [
+              "Daños",
+              "Autos"
+            ],
+            "correos": [
+              "cotizaciones@gnp.com.mx"
+            ]
+          }
+        ],
+        "portales": [
+          {
+            "aseguradora": "GNP",
+            "prioridad": "Sí",
+            "usuario": "testuser",
+            "contrasena": "testpass123"
+          }
+        ],
+        "reporte": {
+          "frecuencia": "diaria",
+          "formato": [
+            "correo"
+          ],
+          "alertas": true
+        },
+        "destinatarios": [
+          {
+            "nombre": "Juan Prueba",
+            "email": "juan@testautomation.com"
+          }
+        ]
+      }
+    }
+  ]
+}
