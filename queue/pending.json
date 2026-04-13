@@ -2,9 +2,9 @@
   "submissions": [
     {
       "id": "1776028011395",
-      "status": "pending",
+      "status": "completed",
       "submittedAt": "2026-04-12T21:06:51.395Z",
-      "completedAt": null,
+      "completedAt": "2026-04-13T03:50:35.249Z",
       "error": null,
       "formData": {
         "empresa": "Test Automation Co",
@@ -25,7 +25,7 @@
           {
             "nombre": "GNP",
             "ramos": [
-              "Daños",
+              "DaÃ±os",
               "Autos"
             ],
             "correos": [
@@ -36,7 +36,7 @@
         "portales": [
           {
             "aseguradora": "GNP",
-            "prioridad": "Sí",
+            "prioridad": "SÃ­",
             "usuario": "testuser",
             "contrasena": "testpass123"
           }
@@ -54,7 +54,8 @@
             "email": "juan@testautomation.com"
           }
         ]
-      }
+      },
+      "notes": "Org created (PzIeEimi0vXSpLXkItsn), users added, products enabled (cotizador, validador). Insurer/directorio config skipped: no admin UI found."
     }
   ]
 }
